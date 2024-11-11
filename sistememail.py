@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 
 def send_email(to_email, subject, message):
     # Informasi akun email pengirim
-    from_email = "ibnuubaidillah1009@gmail.com"
-    from_password = "rfoa eics dykr cqvw"
+    from_email = "youremail@gmail.com"
+    from_password = "yourpassword"
 
     # Mengatur server SMTP Gmail
     smtp_server = "smtp.gmail.com"
@@ -37,8 +37,8 @@ def send_email(to_email, subject, message):
         server.quit()
 
 # Penggunaan fungsi
-recipient = "sadiyah.rpl@gmail.com"
-subject = "ibnuubaidillah/10"
+recipient = "youremail@gmail.com"
+subject = "title"
 message = "ini adalah pengirim email otomatis menggunakan python"
 
 send_email(recipient, subject, message)
